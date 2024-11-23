@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Center Content</title>
+    <style>
+        body {
+            height: 100vh; /* Full height of the viewport */
+            margin: 0; /* Remove default margin */
+            display: flex; /* Use flexbox for layout */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            background: url('file:///Users/prasad/Documents/prasad/images/pexels-rahulp9800-2987093%20(1).jpg') no-repeat center center fixed; /* Background image */
+            background-size: cover; /* Ensure the image covers the entire viewport */
+            font-family: 'Arial', sans-serif; /* Font */
+            color: white; /* Default text color */
+            text-align: center; /* Center all text */
+        }
+        
+        .content {
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text contrast */
+            padding: 40px;
+            border-radius: 15px;
+            max-width: 80%; /* Limit text width */
+            font-size: 1.5em; /* Slightly smaller text for readability */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Soft shadow for depth */
+        }
+
+        .content h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            font-family: 'Georgia', serif; /* Elegant font for headings */
+            font-weight: bold;
+            letter-spacing: 1px;
+            background: linear-gradient(to right, #928b4f, #035257, #9d4595); /* Soft pastel gradient */
+            -webkit-background-clip: text;
+            color: transparent; /* Makes the text color transparent so the gradient is visible */
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .content p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <h1>CONGRATS! WE'RE TOGETHER NOW</h1>
+        <p>In this moment, time stands still. Our hearts are woven together in a perfect tapestry of love, and nothing else matters. I am yours, and you are mine—forever intertwined in this beautiful journey.</p>
+        <p>From this day forward, every sunrise reminds me of your smile, and every sunset fills me with peace, knowing we share this love. With you by my side, I feel complete.</p>
+        <p>In your eyes, I see the universe, and in your heart, I find my home. With you, every day is a promise of more joy, more laughter, and more love than I ever imagined.</p>
+    </div>
+
+</body>
+</html>
